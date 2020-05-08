@@ -154,7 +154,7 @@ sub oneIpTelnet{
         print $result;
 
         if ($result0 == 1){
-                $worked="workedX2.txt";
+                $worked="$host.txt";
                 open(DAT,">>$worked");
                 print DAT "\n\n==========\n==========\n==========\n==========\n";
                 print DAT "$host WORKED with $user : $pass \n";
